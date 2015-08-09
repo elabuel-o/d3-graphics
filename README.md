@@ -1,4 +1,4 @@
 ## Data visualization with javascript
 
-Using javascript libaries in order to visualize data in the web. 
+Using javascript libraries in order to visualize data in the web. 
 
