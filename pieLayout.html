@@ -42,7 +42,10 @@
 		arcs.append("text")
 			.attr("transform", function (d) { return "translate(" + arc.centroid(d) + ")"; })
 			.attr("text-anchor", "middle")
-			.attr("font-size", "1.5em")
+			.attr("font-size", "12px")
+			.attr("font-weight", "bold")
+			.attr("font-family", "sans-serif")
+			.attr("fill", "white")
 			.text(function (d) { return d.data; });
 		
 	</script>
